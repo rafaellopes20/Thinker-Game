@@ -39,7 +39,9 @@ public class LogicaTudoouNada {
 					   System.out.println("Resposta correta!");
 				   }	
 			   } else {
-				   System.err.println("Você errou! A resposta correta era a letra '"+correta+"'\n");
+				   System.out.println("\t--------------------------------------------------------------");
+				   System.out.println("\t      Você errou! A resposta correta era a letra '"+correta+"'");
+				   System.out.println("\t--------------------------------------------------------------\n");
 			   }
 		   } else if(respostaUser == '3' && chance >= 0) {
 			//   System.out.println("\t# CHANCE: a) \tc) "); // PREENCHER
@@ -52,10 +54,14 @@ public class LogicaTudoouNada {
 					   System.out.println("Resposta correta!\n");
 				   }	
 			   } else {
-				   System.err.println("Você errou! A resposta correta era a letra '"+correta+"'\n");
+				   System.out.println("\t--------------------------------------------------------------");
+				   System.out.println("\t      Você errou! A resposta correta era a letra '"+correta+"'");
+				   System.out.println("\t--------------------------------------------------------------\n");
 			   }
 		   } else {
-			   System.err.println("Você errou! A resposta correta era a letra '"+correta+"'\n");
+			   System.out.println("\t--------------------------------------------------------------");
+			   System.out.println("\t      Você errou! A resposta correta era a letra '"+correta+"'");
+			   System.out.println("\t--------------------------------------------------------------\n");
 		   }	   
 	   	
 		return money;

@@ -29,7 +29,7 @@ public class Loja {
 			elim++;
 			return elim;
 		} else {
-			System.err.println("\t\t\t\t Você não possui dinheiro suficiente: $" + money);
+			System.err.println("\t\t\t\t Você não possui dinheiro suficiente: $" + money+". Responda a Pergunta!");
 		}
 		return 0;
 	}
